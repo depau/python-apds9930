@@ -11,7 +11,12 @@ Check the pinout:
 
 ![Graphics-I2C pinout](http://members.dslextreme.com/users/paintyourdragon/img/i2c/port-vga.png)
 
-You may want to read [this article](http://www.paintyourdragon.com/?p=43).
+* Grey: ground
+* Red: +5V
+* Yellow: clock
+* Blue: serial data
+
+You may want to read [this article](http://www.paintyourdragon.com/?p=43) for more information and more pinouts.
 
 It should work on Raspberry PI.
 
