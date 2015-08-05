@@ -22,8 +22,6 @@ It should work on Raspberry PI.
 
 ## Basic usage
 
-**Note:** more detailed usage and documentation coming soon.
-
 Load the `i2c-dev` kernel module.
 
 ```
@@ -78,3 +76,5 @@ That's it! Use Python's help function to retrieve the documentation (which is ye
 ```
 >>> help(APDS9930)
 ```
+
+You can find the full documentation at [ReadTheDocs](http://apds-9930-python-bindings.readthedocs.org/en/latest/)
