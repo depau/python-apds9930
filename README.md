@@ -9,16 +9,18 @@ I tested this on Linux a desktop computer, using the I2C pins of a nVidia graphi
 
 Check the pinout:
 
-![Graphics-I2C pinout](http://members.dslextreme.com/users/paintyourdragon/img/i2c/port-vga.png)
+![Graphics-I2C pinout](http://i2.wp.com/download.tuxfamily.org/davidedduos/static/wp-content/uploads/2015/08/VGA_Connector_Pinout1.png?resize=400,222)
 
-* Grey: ground
-* Red: +5V
-* Yellow: clock
-* Blue: serial data
+| Color  | Pin | Usage              |
+|--------|-----|--------------------|
+| Gray   | 5   | GND                |
+| Red    | 9   | +5V/VCC            |
+| Yellow | 15  | SCL (serial clock) |
+| Blue   | 12  | SDA (serial data)  |
 
-You may want to read [this article](http://www.paintyourdragon.com/?p=43) for more information and more pinouts.
+For more pinouts and information, check [this article](http://davideddu.org/blog/posts/graphics-card-i2c-port-howto/)
 
-It should work on Raspberry PI.
+It should work on Raspberry PI. I'll be testing it on a Raspberry PI 2 as soon as I get it.
 
 ## Basic usage
 
@@ -71,10 +73,4 @@ Open the bus
 >>> a = APDS9930(bus_number)
 ```
 
-That's it! Use Python's help function to retrieve the documentation (which is yet to be generated).
-
-```
->>> help(APDS9930)
-```
-
-You can find the full documentation at [ReadTheDocs](http://apds-9930-python-bindings.readthedocs.org/en/latest/)
+That's it! You can find the full documentation at [ReadTheDocs](http://apds-9930-python-bindings.readthedocs.org/en/latest/)
