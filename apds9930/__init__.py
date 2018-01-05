@@ -293,7 +293,7 @@ class APDS9930(APDS9930_I2C_Base):
         self.proximity_gain = DEFAULT_PGAIN
         self.led_drive = DEFAULT_PDRIVE
         self.proximity_diode = DEFAULT_PDIODE
-        self.proximity_interrupt = interrupt
+        self.enable_proximity_interrupt = interrupt
         self.power = True
         self.proximity_sensor = True
 
