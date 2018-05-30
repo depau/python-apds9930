@@ -1,9 +1,17 @@
-# Python bindings for APDS-9930
+# Python module for APDS-9930 sensor
 Python module for the APDS-9930 I2C Ambient Light and Proximity sensor
 
 This is a Python port of the [AVR APDS-9930 library](https://github.com/Davideddu/APDS9930).
 
 Simple and easy to use. Makes heavy use of Python-specific programming concepts, such as properties, to make usage even easier. Depends on `python-smbus`, the I2C library for Python.
+
+# DO NOT EMAIL ME IF YOU HAVE AN ISSUE
+It will be deleted without reading. If you have an issue, [create an issue](https://github.com/Depau/APDS9930/issues) here on GitHub.
+
+# Unmaintained
+I'm not going to maintain this library any more. I will merge pull requests, though. Contributions are welcome. Just don't expect anything from me.
+
+----
 
 I tested this on Linux a desktop computer, using the I2C pins of a nVidia graphics card, using the Nouveau graphics driver. This has been reported to work for both ATI and nVidia cards, but not for integrated Intel (and I can confirm this).
 
